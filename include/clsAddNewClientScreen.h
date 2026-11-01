@@ -12,6 +12,7 @@ private:
 
     static void _ReadClientInfo(clsBankClient& Client){
         cout << "\nEnter FirstName: ";
+        cout << "hi";
         Client.SetFirstName(clsInputValidate::ReadString());
 
         cout << "\nEnter LastName: ";
